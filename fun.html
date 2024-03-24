@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prof.Lal">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Prof.Lal's professional website">
+    <title>Professor Lal's Professional Website</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="static/script.js"></script>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Prof. Divakaran Liginlal</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Info</a>
+            <a href="fun.html">Fun</a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2> My Fun Activities </h2>
+        <button id="SeeMoreBTN" onclick="showList()">Click to see...</button>
+        <ul id="FavList">
+            <li>Watch Movies</li>
+            <li>Watch Cricket</li>
+            <li>Throw Fun Parties</li>
+        </ul>
+    </div>
+    <footer>
+        <p id="copyYear">Prof. Lal &copy;</p>
+    </footer>
+</body>
+</html>
